@@ -14,7 +14,7 @@ public class Score_Chapter04 {
 		System.out.println("Iさんの点数は90点");
 		System.out.println("Jさんの点数は100点");
 		System.out.println("テストの平均点は" + ((10 + 20 + 30 + 40 + 50 + 60 + 70 + 80 + 90 + 100) / 10) + "点");
-
+		
 	}
 
 }
