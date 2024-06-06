@@ -4,14 +4,13 @@ public class CarExec_Chapter14 {
 
 	public static void main(String[] args) {
 		// 車クラスのインスタンスを作成
-		Car_Chapter14 gear = new Car_Chapter14(1, 10);
-		Car_Chapter14 speed = new Car_Chapter14(3, 30);
+		Car_Chapter14 car = new Car_Chapter14(1, 10);
 
 		// 車クラスのgearChangeメソッドを実行
-		gear.gearChange(3);
+		car.gearChange(3);
 
 		// 車クラスのrunメソッドを実行
-		speed.run();
+		car.run();
 
 	}
 
