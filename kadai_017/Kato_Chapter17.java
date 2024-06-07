@@ -8,15 +8,14 @@ abstract public class Kato_Chapter17 {
 
 	//メソッド
 	public void commonlntroduce() {
-		System.out.println(familyName);
-		System.out.println(address);
+		System.out.println("名前は" + familyName + givenName + "です");
+		System.out.println("住所は" + address + "です");
 	}
 
 	abstract public void eachIntroduce();
 
 	public void execlntroduce() {
-		System.out.println("名前は" + familyName + givenName + "です");
-		System.out.println("住所は" + address + "です");
+		commonlntroduce();
 		eachIntroduce();
 	}
 
