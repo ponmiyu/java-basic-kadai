@@ -8,7 +8,6 @@ public class DictionaryExec_Chapter21 {
 		//調べる英単語を配列にセット
 		String[] words = { "apple", "banana", "grape", "orange" };
 		//辞書を調べる
-
 		dictionary.fruitsDictionary(words);
 
 	}
